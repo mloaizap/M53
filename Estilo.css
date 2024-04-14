@@ -1,0 +1,173 @@
+*{
+margin: 0%;
+}
+
+
+.cabeza{
+    display: flex;
+    grid-template-columns:auto auto;
+    justify-content: space-around;
+    background-color: rgba(232, 250, 127, 0.527);
+    font-family: 'Segoe UI';
+    font-size: medium;
+    overflow: hidden;
+    padding: 3px;
+
+}
+
+.principal{
+    font-family: 'Segoe UI';
+    font-style:normal;
+    font-size: xx-large;
+    color: rgb(1, 65, 1);
+    text-align: center;
+}
+.enlace{
+    text-align: center;
+    color: rgb(244, 246, 248);
+    text-overflow: ellipsis;
+    font-family: Verdana;
+    font-size: larger;
+    padding: 20px;
+
+    
+}
+
+.navegador{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: darkgreen;
+  text-decoration: none;
+  padding: 15px;
+  
+}
+
+h1{
+    font-family: 'Lucida Sans';
+    color: rgb(1, 24, 1);
+   
+}
+
+p{
+    font-family: 'Lucida Sans';
+    color: rgb(1, 24, 1);
+       
+}
+   
+.pie{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    background-color: darkgreen;
+    font-family: Verdana;
+    color: rgb(244, 246, 248);
+    font-size: medium;
+    padding: 10px;
+}
+
+.seccion1{
+    display:grid;
+    grid-template-columns: 60% 40%;
+    font-size: larger;
+    background-color: rgba(232, 250, 127, 0.527);
+}
+
+.seccion3{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    font-size: medium;
+    font-family: Verdana;
+    background-color: rgba(232, 250, 127, 0.527);
+
+
+}
+
+.Titulo{
+    font-size: xx-large;
+    font-family: Verdana;
+    text-align: center;
+}
+
+.seccion4{
+    display: grid;
+    font-size: xx-large;
+    font-family: Verdana;
+    color: darkgreen;
+    margin: 3%;
+    background-color: rgb(148, 191, 247);
+    padding-top: 1%;
+
+}
+
+.seccion5{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  font-family: 'Courier New';
+  font-size: large;
+  text-align: center;
+  font-style: inherit;
+  background-color: rgb(197, 192, 245);
+  margin: 3%;
+  padding-top: 2%;
+  
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: black;
+}
+
+a{
+    color: rgb(42, 7, 243);
+    text-decoration: none;
+    font-size: x-large;
+}
+
+a:hover{
+    color: #0ecef0;
+}
+
+
+.seccion6{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: 'Courier New';
+    font-size: large;
+    text-align: center;
+    font-style: inherit;
+    margin: 1%;
+    padding-top: 1%;
+}
+
+.seccion7{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    font-family: 'Courier New';
+    font-size: x-large;
+    font-style: inherit;
+    margin: 3%;
+    padding-top: 2%;
+    
+}
+
+aside{
+    display:grid;
+    font-family: 'Courier New';
+    font-size: large;
+    font-style: inherit;
+    margin: 1%;
+    padding-top: 1%;
+}
+
+.seccion8{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-family: 'Lucida Sans',;
+    color: blue;
+    }
