@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="Estilo.css">
+
+    <script>
+        function alerta() {
+            alert("Encuesta enviada, gracias por tu participación");
+        }
+    </script>
+</head>
+<body class="cuerpo">
+     <!-- Encabezado -->
+<div>
+    <article class="cabeza">
+        <h1 class="principal">CONOCIENDO A MEDELLIN..."LA CIUDAD DE LA ETERNA PRIMAVERA"</h1>
+       </article>
+    <article class="logo">  <img src="imagenes/m3.webp" alt="Medellín" height="200" width="1800"></article>
+</div>
+
+<section class="navegador">
+    <a class="enlace" href="index.html">Inicio</a>   
+    <a class="enlace" href="Dondeir.html">Donde ir</a>
+    <a class="enlace" href="dondedormir.html">Donde dormir</a>
+    <a class="enlace" href="Dondecomer.html">Donde comer</a>
+    <a class="enlace" href="Contactanos.html">Contactenos</a>
+ </section>
+
+ <h1>Encuesta</h1>
+ <div class="datos1">
+    <form action="">
+        <section>
+            <h2>Datos personales</h2>
+            <label for="">Nombre</label>
+            <input type="text" placeholder="Nombres completos">
+            <label for="">Apellidos</label>
+            <input type="text" placeholder="Escribe tus apellidos">
+            <label for="">Fecha de nacimiento</label>
+            <input type="date" name="" id=""> <br>
+            <label for="">Ciudad de nacimiento</label>
+            <input type="text">
+            <label for="">Tipo identificacion</label>
+            <input type="radio" name="" id="">TI
+            <input type="radio" name="" id="">CC
+            <input type="radio" name="" id="">CE
+            <label for="">Numero de identificación</label>
+            <input type="text"><br>
+            <label for="">Correo electronico</label>
+            <input type="email" name="" id="">
+            <label for="">Número de telefono</label>
+            <input type="number" name="" id="">
+            <label for="">Número de Celular</label>
+            <input type="number" name="" id="">
+        
+        </section>
+    </form>
+
+ </div>
+
+ <div class="datos1">
+   <form action="">
+    <h2>Contacto de emergencia</h2>
+        <label for="">Nombre</label>
+        <input type="text">
+        <label for="">Apellidos</label>
+        <input type="text">
+        <label for="">Parentesco</label>
+        <input type="text">
+        <label for="">Fecha de nacimiento</label>
+        <input type="date" name="" id=""> <br>
+        <label for="">Número de telefono</label>
+        <input type="tel" name="" id="">
+        <label for="">Número de Celular</label>
+        <input type="tel" name="" id="">
+    </form>
+    </div>
+
+
+    <div class="datos1">
+        <form action="">
+            <section>
+                <h2>Que conoces de medellin</h2>
+                <label for="">¿Conoces la ciudad de Medellín?</label>
+                <input type="checkbox" name="" id="">SI
+                <input type="checkbox" name="" id="">NO <br> <br>
+                <label for="">¿Que lugar conoces de Medellín?</label> <br>
+                <input type="checkbox" name="" id="">Ninguno <br>
+                <input type="checkbox" name="" id="">Ciudad Botero <br>
+                <input type="checkbox" name="" id="">Pueblito paisa <br>
+                <input type="checkbox" name="" id="">Museo de antioquia <br>
+                <input type="checkbox" name="" id="">Jardín Botero <br>
+                <input type="checkbox" name="" id="">Cerro Nutibara <br>
+                <input type="checkbox" name="" id="">Biblioteca Temática EPM <br>
+                <input type="checkbox" name="" id="">Centro Administrativo La Alpujarra <br>
+                <input type="checkbox" name="" id="">Museo El Castillo <br>
+                <input type="checkbox" name="" id="">Otro
+                <input type="text" placeholder="Escribe cual"><br>
+                <label for="">¿Conoces alguno de los hoteles que estan en nuestra página?</label>
+                <select name="" id="">
+                    <option value="SI">SI</option>
+                    <option value="NO">NO</option>
+                </select> <br> <br>
+                <label for="">Deseas compartir una foto en nuestro muro</label>
+                <input type="file" name="" id=""><br><br>
+                <input type="submit" value="ENVIAR" onclick="alerta()">
+            </section>
+        </form>
+   
+        
+    </div>
+
+    
+
+
+
+</body>
+</html>
